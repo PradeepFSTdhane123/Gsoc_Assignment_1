@@ -8,3 +8,6 @@ int main() {
     printf("You entered: %s\n", buffer);
     return 0;
 }
+
+// \0- null terminator -end of the string. 
+// gets(buffer), - store more than 9 characters, causing a buffer overflow.
